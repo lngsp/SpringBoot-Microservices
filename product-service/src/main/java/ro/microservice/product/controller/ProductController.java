@@ -1,11 +1,11 @@
-package ro.microservice.project.controller;
+package ro.microservice.product.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import ro.microservice.project.dto.ProductRequest;
-import ro.microservice.project.dto.ProductResponse;
-import ro.microservice.project.service.ProductService;
+import ro.microservice.product.dto.ProductRequest;
+import ro.microservice.product.dto.ProductResponse;
+import ro.microservice.product.service.ProductService;
 
 import java.util.List;
 
